@@ -1,0 +1,28 @@
+.song-form-container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ccc;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px #00000025;
+}
+.song-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.song-form input[type="text"]{
+    padding: 0.5rem 0.25rem;
+    border: none;
+    border-radius: 5px;
+}
+.song-form input[type="submit"]{
+    padding: 0.5rem 0.25rem;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
