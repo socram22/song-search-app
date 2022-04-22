@@ -1,9 +1,11 @@
 import React from "react";
+import "./SongLyric.css";
 
-const SongLyric = () => {
+const SongLyric = ({ title, lyrics }) => {
   return (
-    <div>
-      <h2>Lyric</h2>
+    <div className="song-lyric">
+      <h2>{title}</h2>
+      <blockquote style={{ whiteSpace: "pre-wrap" }}>{lyrics}</blockquote>
     </div>
   );
 };

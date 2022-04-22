@@ -15,7 +15,7 @@ export const helpHttp = () => {
 
     setTimeout(() => {
       controller.abort();
-    }, 5000);
+    }, 9000);
 
     return fetch(endpoint, options)
       .then((res) =>
