@@ -1,11 +1,15 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import SongSearch from "./components/SongSearch";
 
 function App() {
   return (
-    <div>
-      <SongSearch />
-    </div>
+    <>
+      <main>
+        <SongSearch />
+      </main>
+      <Footer />
+    </>
   );
 }
 
